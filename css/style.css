@@ -489,6 +489,7 @@ button.btn:hover:before {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+/*    height: 70%;*/
 }
 
 .bg--img-bottom {
@@ -4487,7 +4488,7 @@ body.isTawkMobile #backToTop {
 .contact-info--item:hover,
 .contact-info--item:focus {
     color: #fff;
-    background-color: #000;
+    background-color: #4c4c4c;
 }
 
 /* 28.2. CONTACT INFO ICON */
@@ -4574,13 +4575,37 @@ body.isTawkMobile #backToTop {
 
 /* 29.2. FOOTER COPYRIGHT */
 .footer--copyright {
-    padding: 33px 0 35px;
+    padding: 20px 0 20px;
     border-top: 1px solid #555;
-    font-size: 16px;
-    line-height: 20px;
+    color: white;
 }
 .footer--copyright a, .footer--copyright .fa {
-    color: #119ee6;
+    color: white;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#exe_logo {
+    width: auto;
+    height: 40px;
+    margin-right: 0;
+    padding-right: 5%;
+}
+
+#copyright {
+    padding-left: 5%;
+    vertical-align: middle;
+    font-size: 13px;
+    margin-bottom: 0;
 }
 
 /*------------------------------------*\
