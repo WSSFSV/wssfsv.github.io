@@ -1202,7 +1202,7 @@ body.isTawkMobile #backToTop {
     transition: background-color .25s ease-in-out;
 }
 .header--navbar .navbar-toggle.collapsed {
-    border-color: #222;
+    border-color: #FF9600;
     background-color: transparent;
 }
 .header--navbar .navbar-toggle.collapsed .icon-bar {
