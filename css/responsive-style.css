@@ -445,6 +445,10 @@ WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SA
     }
     
     /* HEADER AREA */
+     .header--navbar > .container {
+        position: static;
+    }
+
     .header--topbar .nav {
         float: left;
     }
@@ -557,6 +561,14 @@ WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SA
 
 /* 1.4. SMALL DEVICES, SMARTPHONES */
 @media screen and (max-width: 480px) {
+    .bg--img {
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+/*    height: 70%;*/
+}
+
+
     .footer--copyright {
     padding: 30px 0 30px;
     border-top: 1px solid #555;
@@ -597,6 +609,9 @@ WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SA
     }
     
     /* HEADER AREA */
+    .header--navbar > .container {
+        position: static;
+    }
     .header--logo {
         max-width: 200px;
         padding: 29px 0 28px 15px;
