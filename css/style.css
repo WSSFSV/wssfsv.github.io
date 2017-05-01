@@ -483,6 +483,9 @@ button.btn:hover:before {
     color: #fff;
     background-color: #119ee6;
 }
+.bg-color--blue {
+    background-color: #005B82;
+}
 
 /* 1.8. BACKGROUND IMAGE */
 .bg--img {
