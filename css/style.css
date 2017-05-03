@@ -1129,7 +1129,8 @@ body.isTawkMobile #backToTop {
 }
 
 .header--topbar .nav > li > a {
-    color: #aaaaaa;
+/*    color: #aaaaaa;*/
+    color: white;
 }
 .header--topbar .nav > li > a:hover,
 .header--topbar .nav > li > a:focus {
