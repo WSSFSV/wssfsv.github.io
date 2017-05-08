@@ -56,6 +56,11 @@ WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SA
     .contact-info--item {
         padding-left: 40px;
     }
+
+    /* BACK TO TOP BUTTON */
+    #backToTop {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -708,6 +713,11 @@ WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SA
     /* HIDDEN XS */
     .hidden-xxs {
         display: none !important;
+    }
+
+    /* BACK TO TOP BUTTON */
+    #backToTop {
+        display: block;
     }
 }
 
