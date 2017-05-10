@@ -486,6 +486,9 @@ button.btn:hover:before {
 .bg-color--blue {
     background-color: #005B82;
 }
+.blue-link {
+    color: #005B82;
+}
 
 /* 1.8. BACKGROUND IMAGE */
 .bg--img {
@@ -898,6 +901,7 @@ ul.list--icon-hand li:before {
     -webkit-transition: opacity .25s, visibility .25s;
             transition: opacity .25s, visibility .25s;
     z-index: 999;
+    display: none;
 }
 body.isScrolling #backToTop {
     opacity: 1;
