@@ -87,7 +87,7 @@ a:focus,
 .footer--widget > ul > li:hover:before,
 .footer--copyright a,
 .footer--copyright .fa {
-    color: #F89728;
+    color: #f79727;
 }
 
 /*------------------------------------*\
@@ -176,15 +176,15 @@ a:focus,
 .product--single-summery-meta .btn-group .btn-default:hover,
 .product--single-summery-meta .btn-group .btn-default:focus,
 .product--single-summery-meta .btn-group .btn-default.active {
-    background-color: #F89728;
+    background-color: #f79727;
 }
 
 ::-moz-selection {
-    background-color: #F89728;
+    background-color: #f79727;
 }
 
 ::selection {
-    background-color: #F89728;
+    background-color: #f79727;
 }
 
 /*------------------------------------*\
@@ -251,13 +251,13 @@ a:focus,
 .posts--tags .nav > li > a:hover,
 .posts--tags .nav > li > a:focus,
 .login--form .checkbox a:hover {
-    border-color: #F89728;
+    border-color: #f79727;
 }
 
 .services-tab--nav ul li:after,
 .services-tab--nav ul li .tooltip.top .tooltip-arrow,
 .product--img figcaption .nav > li .tooltip.top .tooltip-arrow {
-    border-top-color: #F89728;
+    border-top-color: #f79727;
 }
 
 .nav-tabs > li.active + li > a,
@@ -266,10 +266,10 @@ a:focus,
 .page--sidebar-nav .nav > li:hover > a,
 .page--sidebar-nav .nav > li.active > a,
 .page--sidebar-widget > .h4 {
-    border-left-color: #F89728;
+    border-left-color: #f79727;
 }
 
 .product--single-summery-meta .tags a:hover,
 .product--single-summery-meta .tags a:focus {
-    border-bottom-color: #F89728;
+    border-bottom-color: #f79727;
 }
