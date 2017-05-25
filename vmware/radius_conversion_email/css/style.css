@@ -87,9 +87,23 @@ button:hover {
 	color: white;
 }
 
+.container {
+	position: relative;
+	width: 800px;
+	margin: auto;
+}
 
+/*#hearder_image {
+	position: absolute;
+}*/
 
-
+.logo {
+	position: absolute;
+	left: 12.5%;
+	top: 25px;
+	z-index: 5;
+	margin: auto;
+}
 
 
 footer {
