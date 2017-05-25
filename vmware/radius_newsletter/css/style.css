@@ -143,6 +143,29 @@ button:hover {
 	margin: 0 11px;
 }
 
+.container {
+	position: relative;
+	width: 800px;
+	margin: auto;
+}
+
+
+.logo {
+	position: absolute;
+	left: 12.5%;
+	top: 25px;
+	z-index: 5;
+	margin: auto;
+}
+
+.date {
+	position: absolute;
+	left: 12.5%;
+	bottom: 45px;
+	z-index: 5;
+	margin: auto;
+}
+
 footer {
 	display: block;
 	font-size: 14px;

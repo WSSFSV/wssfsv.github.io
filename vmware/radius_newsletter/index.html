@@ -6,29 +6,34 @@
 
     <!-- Document Title -->
     <title>Radius Newsletter</title>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- ==== Google Font ==== -->
-
-    <!-- ==== Responsive Stylesheet ==== -->
-    <link rel="stylesheet" href="css/responsive.css">
     <!-- ==== Custom Stylesheet ==== -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link rel="stylesheet" href="css/responsive.css">
+
 
 </head>
 
 <body>
 	
     <header>
-        
-        <img src="images/header1.jpg" alt="header">
+        <div class="container">
+                <img id="header_image" src="images/header.jpg" alt="header">
 
+                <img id="logo" class="logo" src="images/radius_logo.png" alt="logo">
+
+                <img id="date" class="date" src="images/date.png" alt="date">
+        </div>
     </header>
     <section class="column">
 
         <div>
             <img src="images/vmworld.jpg" alt="vmworld">
         </div>
-        <div class="copy_01">
+        <div class="copy_01" id="copy_01">
             <p><strong><span class="blue_copy">VMworld</span></strong> is VMware’s premier thought leadership and education destination for cloud infrastructure and digital workspace technology professionals. Join us for five days of innovation and learn new skills, hear expert insights and gain the tools to enable business success. <strong><span class="blue_copy">Read more</span></strong>.</p>
         </div>
 
@@ -52,7 +57,7 @@
             <img src="images/sunset.jpg" alt="sunset">
         </div>
         <div class="copy_03">
-            <p class="headline">VMware Horizon Cloud: Executing on VMware’s <br>Cross Cloud Strategy</p>
+            <p class="headline">VMware Horizon Cloud: Executing on VMware’s Cross Cloud Strategy</p>
             <p>If you haven’t already noticed, there’s been a lot of activity coming from the VMware End-User Computing team with product updates, innovations and expanded partnerships – and we’re not even half-way through the year.</p>
             <button type="button">READ MORE</button>
         </div>
@@ -68,7 +73,7 @@
         </div>
 
         <div>
-            <img src="images/cityhall.jpg" alt="cityhall">
+            <img id="cityhall" src="images/cityhall.jpg" alt="cityhall">
         </div>
 
     </section>
@@ -108,7 +113,7 @@
     <section class="column">
 
         <div>
-            <img src="images/radius_logo.jpg" alt="radius">
+            <img id="radius" src="images/radius_logo.jpg" alt="radius">
         </div>
         <div class="copy_01">
             <p>Radius is VMware’s news and thought leadership platform. Discover more at <strong><span class="blue_copy">vmware.com/radius</span></strong>.</p>
@@ -124,7 +129,7 @@
             <img class="icons" src="images/linkedIn.jpg" alt="linkedIn">
         </div>
         <img class="footer_bar" src="images/footer1.jpg" alt="footer">
-        <p>&copy; 2017 VMware •  <span class="bl">Unsubscribe</span></p>
+        <p>&copy; 2017 VMware •  <span class="blue_copy">Unsubscribe</span></p>
     </footer>
 </body>
 
