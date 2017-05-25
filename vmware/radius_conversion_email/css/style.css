@@ -1,0 +1,108 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #323232;
+	font-weight: 400;
+	text-align: center;
+	font-size: 16px;
+	margin: auto;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+p, li {
+	margin: auto;
+	padding-bottom: 5px;
+	text-align: left;
+	width: 600px;
+	line-height: 28px;
+	letter-spacing: 1px;
+}
+
+ul {
+	margin-left: 5%;
+}
+
+.blue_copy {
+	color: #0097d4;
+}
+
+hr {
+	display: block;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #c4e5ef;
+	width: 600px;
+	margin: 50px auto;
+}
+
+.green_headline {
+	color: #6cb344;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.green_callout {
+	color: #6cb344;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.cta {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+button {
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	border: none;
+	background-color: #0097d4;
+	margin: auto;
+	cursor: pointer;
+	outline: 0;
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	display: block;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #44545E;
+	color: white;
+}
+
+
+
+
+
+
+footer {
+	display: block;
+	font-size: 14px;
+}
+
+.footer_bar {
+	margin-top: 50px;
+}
+
+footer p {
+	text-align: center;
+	letter-spacing: 1.5px;
+	padding: 30px 0;
+}
