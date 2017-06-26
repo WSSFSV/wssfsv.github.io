@@ -17,7 +17,7 @@
 	}
 
 	header {
-	background-image: url("../images/header_new.jpg");
+	background-image: url("https://wssfsv.github.io/vmware/radius_newsletter/images/header_new.jpg");
 	background-size: cover;
 	background-position: center;
 	/*background-attachment: fixed;*/
@@ -115,7 +115,7 @@
 	line-height: 21px;
 	letter-spacing: 0.7px;
 	margin: 0;
-	font-size: 14px;
+	font-size: 17px;
 }
 .copy_03 {
 	text-align: left;
@@ -193,7 +193,7 @@ p {
 	line-height: 21px;
 	letter-spacing: 0.7px;
 	margin: 30px 0 0 0;
-	font-size: 14px;
+	font-size: 17px;
 }
 #copy_01 {
 	margin-top: 30px;
@@ -212,14 +212,15 @@ button {
 	line-height: 21px;
 	letter-spacing: 0.7px;
 	margin: 0;
-	font-size: 14px;
+	font-size: 17px;
 }
 
 .copy_03 .headline {
 	width: auto;
 	margin: 0;
-	line-height: 24px;
-	font-size: 18px;
+	padding-bottom: 30px;
+	line-height: 30px;
+	font-size: 22px;
 }
 
 .copy_03 button {
@@ -245,7 +246,7 @@ button {
 
 .three .headline {
 	width: auto;
-	font-size: 14px;
+	font-size: 17px;
 	margin: 20px 0 0 0;
 	line-height: 18px;
 }

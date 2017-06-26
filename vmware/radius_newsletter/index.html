@@ -8,11 +8,510 @@
     <title>Radius Newsletter</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- ==== Google Font ==== -->
-    <!-- ==== Custom Stylesheet ==== -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- ==== Responsive Stylesheet ==== -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <style type="text/css">
+        /* ----------------------------------------
+Base Styles
+------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #323232;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.column {
+    width: 600px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+    text-align: left;
+}
+
+.copy_01 {
+    text-align: left;
+    width: 400px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.blue_copy {
+    color: #0097d4;
+}
+
+hr {
+    display: block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #c4e5ef;
+    width: 600px;
+    margin: 50px auto;
+}
+
+.block {
+    width: 600px;
+    margin: auto;
+}
+
+.headline {
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6cb344;
+    letter-spacing: 0;
+    width: 600px;
+    text-align: left;
+}
+
+.copy_02 {
+    text-align: left;
+    width: 400px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    margin: 0;
+    font-size: 14px;
+    width: 600px;
+}
+
+button {
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    color: white;
+    text-align: center;
+    width: 120px;
+    height: 28px;
+    border: none;
+    background-color: #0097d4;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    display: block;
+}
+
+button:hover {
+    background-color: #44545E;
+    color: white;
+}
+
+.copy_03 {
+    text-align: left;
+    width: 275px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.copy_03 .headline {
+    width: 275px;
+    margin: 0;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.copy_03 button {
+    margin: 0;
+}
+
+.copy_03 p {
+    margin: 7px 0;
+}
+
+.three {
+    width: 167px;
+    font-size: 12px;
+}
+
+.three .headline {
+    width: 167px;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 18px;
+}
+
+.three p {
+    margin: 7px 0;
+    line-height: 17px;
+}
+
+.icons {
+    margin: 0 11px;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}
+
+
+.logo {
+    position: absolute;
+    left: 12.5%;
+    top: 25px;
+    z-index: 5;
+    margin: auto;
+}
+
+.date {
+    position: absolute;
+    left: 12.5%;
+    bottom: 45px;
+    z-index: 5;
+    margin: auto;
+}
+
+footer {
+    display: block;
+    font-size: 14px;
+}
+
+.footer_bar {
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 30px 0;
+}
+
+#more {
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+}
+@media screen and (max-width: 800px) {
+    .container {
+    position: relative;
+    height: 233px;
+    margin: auto;
+    }
+    #header_image {
+        display: none;
+    }
+    #logo {
+        position: absolute;
+        left: 7%;
+    }
+    #date {
+        position: absolute;
+        left: 7%;
+    }
+
+    header {
+    background-image: url("https://wssfsv.github.io/vmware/radius_newsletter/images/header_new.jpg");
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    height: 233px;
+    /*height: 100vh;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+    position: relative;
+    height: 233px;
+    margin: auto;
+    }
+    #header_image {
+        display: none;
+    }
+    #logo {
+        position: absolute;
+        left: 3%;
+    }
+    #date {
+        position: absolute;
+        left: 3%;
+    }
+    .copy_03 button {
+    margin: 15px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .column {
+    width: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3%;
+    }
+
+    .copy_01 {
+    text-align: left;
+    width: auto;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    font-size: 14px;
+    }
+        #copy_01 {
+        margin: 0 3%;
+    }
+    hr {
+    display: block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #c4e5ef;
+    width: auto;
+    margin: 50px auto;
+    }
+    .block {
+    width: auto;
+    margin: 0 3%;
+}
+
+.block img {
+    width: 100%;
+}
+
+.headline {
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6cb344;
+    letter-spacing: 0;
+    width: auto;
+    text-align: left;
+    line-height: 26px;
+}
+
+.copy_02 {
+    text-align: left;
+    width: auto;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    margin: 0;
+    font-size: 17px;
+}
+.copy_03 {
+    text-align: left;
+    width: auto;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    margin: 0 3%;
+    font-size: 14px;
+}
+
+.copy_03 .headline {
+    width: auto;
+    margin: 30px 0 0 0;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.copy_03 button {
+    margin: 15px 0 0 0;
+}
+
+.copy_03 p {
+    margin: 7px 0;
+}
+
+.three {
+    width: 31%;
+    font-size: 14px;
+}
+
+.three p {
+    margin: 7px 0 30px 0;
+    line-height: 21px;
+    width: auto;
+}
+
+.three .headline {
+    width: auto;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    line-height: 18px;
+}
+.three img {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    section {
+        margin: 0 3%;
+    }
+    .column {
+    width: auto;
+    display: block;
+    }
+
+    .column_reverse {
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    /*justify-content: flex-start;*/
+    align-items: stretch;
+    }
+
+
+p {
+    margin: 0;
+    text-align: left;
+}
+
+.copy_01 {
+    text-align: left;
+    width: auto;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    margin: 30px 0 0 0;
+    font-size: 17px;
+}
+#copy_01 {
+    margin-top: 30px;
+}
+button {
+    margin: 30px 0 0 0;
+}
+
+.blue_copy {
+    color: #0097d4;
+}
+
+.copy_03 {
+    text-align: left;
+    width: auto;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    margin: 0;
+    font-size: 17px;
+}
+
+.copy_03 .headline {
+    width: auto;
+    margin: 0;
+    padding-bottom: 30px;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.copy_03 button {
+    margin: 30px 0 0 0;
+}
+#cityhall {
+    margin-top: 30px;
+}
+
+.copy_03 p {
+    margin: 7px 0;
+}
+
+.three {
+    width: auto;
+    font-size: 14px;
+}
+
+.three p {
+    margin: 7px 0 30px 0;
+    line-height: 21px;
+}
+
+.three .headline {
+    width: auto;
+    font-size: 17px;
+    margin: 20px 0 0 0;
+    line-height: 18px;
+}
+
+.icons {
+    margin: 0 11px;
+}
+
+.container {
+    position: relative;
+    width: 480px;
+    margin: auto;
+}
+
+
+.logo {
+    position: absolute;
+    left: 12.5%;
+    top: 25px;
+    z-index: 5;
+    margin: auto;
+}
+
+.date {
+    position: absolute;
+    left: 12.5%;
+    bottom: 45px;
+    z-index: 5;
+    margin: auto;
+}
+
+footer {
+    display: block;
+    font-size: 14px;
+}
+
+.footer_bar {
+    margin-top: 50px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 30px 0;
+}
+
+
+.column img {
+    width: 100%;
+}
+
+    .column_reverse img {
+    width: 100%;
+    margin-top: 30px;
+    }
+
+#radius {
+    width: auto;
+}
+
+}
+
+    </style>
+
+   
 
 
 </head>
@@ -21,17 +520,17 @@
 	
     <header>
         <div class="container">
-                <img id="header_image" src="images/header_new.jpg" alt="header">
+                <img id="header_image" src="https://wssfsv.github.io/vmware/radius_newsletter/images/header_new.jpg" alt="header">
 
-                <img id="logo" class="logo" src="images/radius_logo.png" alt="logo">
+                <img id="logo" class="logo" src="https://wssfsv.github.io/vmware/radius_newsletter/images/radius_logo.png" alt="logo">
 
-                <img id="date" class="date" src="images/date.png" alt="date">
+                <img id="date" class="date" src="https://wssfsv.github.io/vmware/radius_newsletter/images/date.png" alt="date">
         </div>
     </header>
     <section class="column column_reverse">
 
         <div>
-            <img src="images/vmworld.jpg" alt="vmworld" id="vmworld">
+            <img src="https://wssfsv.github.io/vmware/radius_newsletter/images/vmworld.jpg" alt="vmworld" id="vmworld">
         </div>
         <div class="copy_01" id="copy_01">
             <p><strong><span class="blue_copy">VMworld</span></strong> is VMware’s premier thought leadership and education destination for cloud infrastructure and digital workspace technology professionals. Join us for five days of innovation and learn new skills, hear expert insights and gain the tools to enable business success. <strong><span class="blue_copy">Read more</span></strong>.</p>
@@ -41,7 +540,7 @@
     <hr>
     <section class="block">
 
-        <img src="images/notebook.jpg" alt="notebook">
+        <img src="https://wssfsv.github.io/vmware/radius_newsletter/images/notebook.jpg" alt="notebook">
 
         <div class="copy_01">
             <p class="headline">The Digital Workspace: Spanning the Generations</p>
@@ -54,7 +553,7 @@
     <section class="column column_reverse">
 
         <div>
-            <img src="images/sunset.jpg" alt="sunset">
+            <img src="https://wssfsv.github.io/vmware/radius_newsletter/images/sunset.jpg" alt="sunset">
         </div>
         <div class="copy_03">
             <p class="headline">VMware Horizon Cloud: Executing on VMware’s Cross Cloud Strategy</p>
@@ -73,7 +572,7 @@
         </div>
 
         <div>
-            <img id="cityhall" src="images/cityhall.jpg" alt="cityhall">
+            <img id="cityhall" src="https://wssfsv.github.io/vmware/radius_newsletter/images/cityhall.jpg" alt="cityhall">
         </div>
 
     </section>
@@ -81,7 +580,7 @@
     <section class="column column_reverse">
 
         <div>
-            <img src="images/phone.jpg" alt="phone">
+            <img src="https://wssfsv.github.io/vmware/radius_newsletter/images/phone.jpg" alt="phone">
         </div>
         <div class="copy_03">
             <p class="headline">Samsung Electronics and VMware Team Up to Simplify IoT</p>
@@ -93,17 +592,17 @@
     <hr>
     <section class="column">
         <div class="three">
-            <img src="images/lady.jpg" alt="lady">
+            <img src="https://wssfsv.github.io/vmware/radius_newsletter/images/lady.jpg" alt="lady">
             <p class="headline">Vitae Morbi, Risus Sollicitudin Leo Natus Habitasse Nostrud</p>
             <p>Malesuada vivamus natus, enim lacinia tincidunt ligula mauris, habitasse nostrud voluptas rhoncus purus id suscipit. <strong><span class="blue_copy">Read more</span></strong>.</p>
         </div>
         <div class="three">
-            <img src="images/glowing.jpg" alt="glowing">
+            <img src="https://wssfsv.github.io/vmware/radius_newsletter/images/glowing.jpg" alt="glowing">
             <p class="headline">Vitae Morbi, Risus Sollicitudin Leo Natus Habitasse Nostrud</p>
             <p>Malesuada vivamus natus, enim lacinia tincidunt ligula mauris, habitasse nostrud voluptas rhoncus purus id suscipit. <strong><span class="blue_copy">Read more</span></strong>.</p>
         </div>
         <div class="three">
-            <img src="images/buildings.jpg" alt="buildings">
+            <img src="https://wssfsv.github.io/vmware/radius_newsletter/images/buildings.jpg" alt="buildings">
             <p class="headline">Vitae Morbi, Risus Sollicitudin Leo Natus Habitasse Nostrud</p>
             <p>Malesuada vivamus natus, enim lacinia tincidunt ligula mauris, habitasse nostrud voluptas rhoncus purus id suscipit. <strong><span class="blue_copy">Read more</span></strong>.</p>
         </div>
@@ -113,7 +612,7 @@
     <section class="column">
 
         <div>
-            <img id="radius" src="images/radius_logo.jpg" alt="radius">
+            <img id="radius" src="https://wssfsv.github.io/vmware/radius_newsletter/images/radius_logo.jpg" alt="radius">
         </div>
         <div class="copy_01">
             <p>Radius is VMware’s news and thought leadership platform. Discover more at <strong><span class="blue_copy">vmware.com/radius</span></strong>.</p>
@@ -124,26 +623,14 @@
 
     <footer>
         <div>
-            <img class="icons" src="images/facebook.jpg" alt="facebook">
-            <img class="icons" src="images/twitter.jpg" alt="twitter">
-            <img class="icons" src="images/linkedIn.jpg" alt="linkedIn">
+            <img class="icons" src="https://wssfsv.github.io/vmware/radius_newsletter/images/facebook.jpg" alt="facebook">
+            <img class="icons" src="https://wssfsv.github.io/vmware/radius_newsletter/images/twitter.jpg" alt="twitter">
+            <img class="icons" src="https://wssfsv.github.io/vmware/radius_newsletter/images/linkedIn.jpg" alt="linkedIn">
         </div>
-        <img class="footer_bar" src="images/footer1.jpg" alt="footer">
+        <img class="footer_bar" src="https://wssfsv.github.io/vmware/radius_newsletter/images/footer1.jpg" alt="footer">
         <p>&copy; 2017 VMware •  <span class="blue_copy">Unsubscribe</span></p>
     </footer>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
+</html>
 
