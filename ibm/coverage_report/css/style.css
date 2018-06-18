@@ -1,0 +1,189 @@
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #323232;
+	font-weight: 400;
+	text-align: center;
+	font-size: 16px;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+.column {
+	width: 600px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+p {
+	margin: 0;
+	text-align: left;
+}
+
+.copy_01 {
+	text-align: left;
+	width: 400px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+.blue_copy {
+	color: #0097d4;
+}
+
+hr {
+	display: block;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #c4e5ef;
+	width: 600px;
+	margin: 50px auto;
+}
+
+.block {
+	width: 600px;
+	margin: auto;
+}
+
+.headline {
+	margin: 30px 0;
+	font-size: 20px;
+	font-weight: 600;
+	color: #6cb344;
+	letter-spacing: 0;
+	width: 600px;
+	text-align: left;
+}
+
+.copy_02 {
+	text-align: left;
+	width: 400px;
+	line-height: 21px;
+	letter-spacing: 0.7px;
+	margin: 0;
+	font-size: 14px;
+	width: 600px;
+}
+
+button {
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+	color: white;
+	text-align: center;
+	width: 120px;
+	height: 28px;
+	border: none;
+	background-color: #0097d4;
+	margin-top: 30px;
+	cursor: pointer;
+	outline: 0;
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	display: block;
+}
+
+button:hover {
+	background-color: #44545E;
+	color: white;
+}
+
+.copy_03 {
+	text-align: left;
+	width: 275px;
+	line-height: 21px;
+	letter-spacing: 0.7px;
+	margin: 0;
+	font-size: 14px;
+}
+
+.copy_03 .headline {
+	width: 275px;
+	margin: 0;
+	line-height: 24px;
+	font-size: 18px;
+}
+
+.copy_03 button {
+	margin: 0;
+}
+
+.copy_03 p {
+	margin: 7px 0;
+}
+
+.three {
+	width: 167px;
+	font-size: 12px;
+}
+
+.three .headline {
+	width: 167px;
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 18px;
+}
+
+.three p {
+	margin: 7px 0;
+	line-height: 17px;
+}
+
+.icons {
+	margin: 0 11px;
+}
+
+.container {
+	position: relative;
+	width: 800px;
+	margin: auto;
+}
+
+
+.logo {
+	position: absolute;
+	left: 12.5%;
+	top: 25px;
+	z-index: 5;
+	margin: auto;
+}
+
+.date {
+	position: absolute;
+	left: 12.5%;
+	bottom: 45px;
+	z-index: 5;
+	margin: auto;
+}
+
+footer {
+	display: block;
+	font-size: 14px;
+}
+
+.footer_bar {
+	margin-top: 50px;
+}
+
+footer p {
+	text-align: center;
+	letter-spacing: 1.5px;
+	margin: 30px 0;
+}
+
+#more {
+	text-align: left;
+	font-size: 14px;
+	line-height: 21px;
+}
+

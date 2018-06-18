@@ -1,0 +1,311 @@
+@media screen and (max-width: 800px) {
+	.container {
+	position: relative;
+	height: 233px;
+	margin: auto;
+	}
+	#header_image {
+		display: none;
+	}
+	#logo {
+		position: absolute;
+		left: 7%;
+	}
+	#date {
+		position: absolute;
+		left: 7%;
+	}
+
+	header {
+	background-image: url("https://wssfsv.github.io/vmware/radius_newsletter/images/header_new.jpg");
+	background-size: cover;
+	background-position: center;
+	/*background-attachment: fixed;*/
+	height: 233px;
+	/*height: 100vh;*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: white;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.container {
+	position: relative;
+	height: 233px;
+	margin: auto;
+	}
+	#header_image {
+		display: none;
+	}
+	#logo {
+		position: absolute;
+		left: 3%;
+	}
+	#date {
+		position: absolute;
+		left: 3%;
+	}
+	.copy_03 button {
+	margin: 15px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.column {
+	width: auto;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 3%;
+	}
+
+	.copy_01 {
+	text-align: left;
+	width: auto;
+	line-height: 21px;
+	letter-spacing: 0.7px;
+	font-size: 14px;
+	}
+		#copy_01 {
+		margin: 0 3%;
+	}
+	hr {
+	display: block;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #c4e5ef;
+	width: auto;
+	margin: 50px auto;
+	}
+	.block {
+	width: auto;
+	margin: 0 3%;
+}
+
+.block img {
+	width: 100%;
+}
+
+.headline {
+	margin: 30px 0;
+	font-size: 20px;
+	font-weight: 600;
+	color: #6cb344;
+	letter-spacing: 0;
+	width: auto;
+	text-align: left;
+	line-height: 26px;
+}
+
+.copy_02 {
+	text-align: left;
+	width: auto;
+	line-height: 21px;
+	letter-spacing: 0.7px;
+	margin: 0;
+	font-size: 17px;
+}
+.copy_03 {
+	text-align: left;
+	width: auto;
+	line-height: 21px;
+	letter-spacing: 0.7px;
+	margin: 0 3%;
+	font-size: 14px;
+}
+
+.copy_03 .headline {
+	width: auto;
+	margin: 30px 0 0 0;
+	line-height: 24px;
+	font-size: 18px;
+}
+
+.copy_03 button {
+	margin: 15px 0 0 0;
+}
+
+.copy_03 p {
+	margin: 7px 0;
+}
+
+.three {
+	width: 31%;
+	font-size: 14px;
+}
+
+.three p {
+	margin: 7px 0 30px 0;
+	line-height: 21px;
+	width: auto;
+}
+
+.three .headline {
+	width: auto;
+	font-size: 14px;
+	margin: 20px 0 0 0;
+	line-height: 18px;
+}
+.three img {
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+	section {
+		margin: 0 3%;
+	}
+	.column {
+	width: auto;
+	display: block;
+	}
+
+	.column_reverse {
+	width: auto;
+	display: flex;
+	flex-direction: column-reverse;
+	/*justify-content: flex-start;*/
+	align-items: stretch;
+	}
+
+
+p {
+	margin: 0;
+	text-align: left;
+}
+
+.copy_01 {
+	text-align: left;
+	width: auto;
+	line-height: 21px;
+	letter-spacing: 0.7px;
+	margin: 30px 0 0 0;
+	font-size: 17px;
+}
+#copy_01 {
+	margin-top: 30px;
+}
+button {
+	margin: 30px 0 0 0;
+}
+
+.blue_copy {
+	color: #0097d4;
+}
+
+.copy_03 {
+	text-align: left;
+	width: auto;
+	line-height: 21px;
+	letter-spacing: 0.7px;
+	margin: 0;
+	font-size: 17px;
+}
+
+.copy_03 .headline {
+	width: auto;
+	margin: 0;
+	padding-bottom: 30px;
+	line-height: 30px;
+	font-size: 22px;
+}
+
+.copy_03 button {
+	margin: 30px 0 0 0;
+}
+#cityhall {
+	margin-top: 30px;
+}
+
+.copy_03 p {
+	margin: 7px 0;
+}
+
+.three {
+	width: auto;
+	font-size: 14px;
+}
+
+.three p {
+	margin: 7px 0 30px 0;
+	line-height: 21px;
+}
+
+.three .headline {
+	width: auto;
+	font-size: 17px;
+	margin: 20px 0 0 0;
+	line-height: 18px;
+}
+
+.icons {
+	margin: 0 11px;
+}
+
+.container {
+	position: relative;
+	width: 480px;
+	margin: auto;
+}
+
+
+.logo {
+	position: absolute;
+	left: 12.5%;
+	top: 25px;
+	z-index: 5;
+	margin: auto;
+}
+
+.date {
+	position: absolute;
+	left: 12.5%;
+	bottom: 45px;
+	z-index: 5;
+	margin: auto;
+}
+
+footer {
+	display: block;
+	font-size: 14px;
+}
+
+.footer_bar {
+	margin-top: 50px;
+	width: 100%;
+}
+
+footer p {
+	text-align: center;
+	letter-spacing: 1.5px;
+	margin: 30px 0;
+}
+
+
+.column img {
+	width: 100%;
+}
+
+	.column_reverse img {
+	width: 100%;
+	margin-top: 30px;
+	}
+
+#radius {
+	width: auto;
+}
+
+}
