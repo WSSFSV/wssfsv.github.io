@@ -5,21 +5,54 @@ Base Styles
 	box-sizing: border-box;
 }
 
+@font-face {
+font-family: "IBMPlexSans-Bold";
+src: url("fonts/IBMPlexSans-Bold.ttf");
+src: 
+url("fonts/IBMPlexSans-Bold.woff") format("woff"),
+url("fonts/IBMPlexSans-Bold.otf") format("opentype"),
+}
+
+@font-face {
+font-family: "IBMPlexSans-Light";
+src: url("fonts/IBMPlexSans-Light.ttf");
+src: 
+url("fonts/IBMPlexSans-Light.woff") format("woff"),
+url("fonts/IBMPlexSans-Light.otf") format("opentype"),
+}
+
+@font-face {
+font-family: "IBMPlexSans-Regular";
+src: url("fonts/IBMPlexSans-Regular.ttf");
+src: 
+url("fonts/IBMPlexSans-Regular.woff") format("woff"),
+url("fonts/IBMPlexSans-Regular.otf") format("opentype"),
+}
+
+
+
 body {
-	font-family: arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
+/*	font-family: url("IBMPlexSans-Bold.woff"), sans-serif;
+	-webkit-font-smoothing: antialiased;*/
+/*	src: url("IBMPlexSans-Bold.woff");*/
+	font-family: 'IBMPlexSans-Regular', Arial, sans-serif;
 	color: #323232;
 	font-weight: 400;
 	text-align: center;
-	font-size: 16px;
+	font-size: 14px;
 }
+
+/*font-family {
+	font-family: "IBMPlexSans-Bold.ttf";
+	src: url("font/IBMPlexSans-Bold.ttf");
+}*/
 
 header {
 	margin-bottom: 50px;
 }
 
 .column {
-	width: 600px;
+	width: 700px;
 	display: inline-flex;
 	justify-content: space-between;
 }
@@ -31,9 +64,9 @@ p {
 
 .copy_01 {
 	text-align: left;
-	width: 400px;
-	line-height: 26px;
-	letter-spacing: 1px;
+/*	width: 400px;*/
+	line-height: 20px;
+/*	letter-spacing: 1px;*/
 	margin: 0;
 }
 
@@ -44,11 +77,20 @@ p {
 hr {
 	display: block;
 	border-style: solid;
-	border-width: 3px;
-	border-color: #c4e5ef;
-	width: 600px;
-	margin: 50px auto;
+	border-width: 1px;
+	border-color: white;
+	width: 700px;
+	margin: 10px auto;
 }
+
+/*hr {
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9FC6FB;
+	width: 700px;
+	margin: 50px auto;
+}*/
 
 .block {
 	width: 600px;
